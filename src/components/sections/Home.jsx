@@ -1,6 +1,6 @@
 import React from 'react'
 import Translate from '../global/Translate';
-import profileImage from '../../assets/profile-image.webp';
+// import profileImage from '../../assets/profile-image.webp';
 
 const Home = ({ containerRef }) => {
   const aboutButton = () => {
@@ -13,7 +13,7 @@ const Home = ({ containerRef }) => {
   return (
     <div id="home" ref={containerRef} className="home section diagonal-bg">
       <div className="home__img">
-        <img src={profileImage} alt="profile-image" />
+        {/* <img src={profileImage} alt="profile-image" /> */}
       </div>
       <div className="home__text">
         <h1 className="home__title">Daniele Maggiore</h1>
