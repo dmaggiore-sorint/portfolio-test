@@ -1,0 +1,21 @@
+{
+  "color": "Color",
+  "contacts.abstract": "Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.",
+  "contacts.form.submit": "Send Message",
+  "contacts.form.yourEmail": "Your Email",
+  "contacts.form.yourMessage": "Your Message",
+  "contacts.form.yourName": "Your Name",
+  "contacts.mailMe": "Mail me:",
+  "contacts.subtitle": "Don't be Shy!",
+  "contacts.title": "Get in Touch",
+  "language": "Language",
+  "more_about_me": "More About Me",
+  "nav.about": "About",
+  "nav.contacts": "Contacts",
+  "nav.home": "Home",
+  "nav.portfolio": "Portfolio",
+  "portfolio.title": "My ",
+  "settings": "Settings",
+  "theme": "Theme",
+  "who_am_i": "I am a Senior Frontend Developer and UI/UX Designer with a strong passion for creating intuitive and visually engaging digital experiences. With years of experience in designing and developing interfaces, I strive to combine functionality and aesthetics to deliver modern and user-friendly solutions."
+}

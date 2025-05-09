@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@0400;500;600&family=Poppins:wght@500;600;700;800&display=swap');
+
+:root {
+  /* Colors  */
+  --first-color: #685eae;
+  --background-color: #111111;
+  --title-color: 	#666666;
+  --text-color: #808080;
+  --body-color: #ffffff;
+  --container-color: #ededed;
+  --border-color: #dedede;
+  --text-white: #ffffff;
+  --input-background-color: #2b2b2b;
+
+  /* Font and Typography */
+  --body-font: 'Open Sans', sans-serif;
+  --second-font: 'Poppins', sans-serif;
+
+  --big-font-size: 56px;
+  --h1-font-size: 50px;
+  --h2-font-size: 32px;
+  --h3-font-size: 24px;
+  --large-font-size: 18px;
+  --normal-font-size: 16px;
+  --small-font-size: 15px;
+  --smaller-font-size: 14px;
+  --tiny-font-size: 12px;
+
+  --weight-400: 400;
+  --weight-500: 500;
+  --weight-600: 600;
+  --weight-700: 700;
+  --weight-800: 800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  font-family: var(--body-font);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+input,
+textarea {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: var(--weight-500);
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--title-color);
+  font-family: var(--second-font);
+  font-weight: var(--weight-700);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input,
+textarea {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.diagonal-bg {
+  background: -moz-linear-gradient(15deg, var(--first-color) 0%, var(--first-color) 20%,var(--background-color) 20%,var(--background-color) 100%); /* FF3.6+ */
+  background: -webkit-linear-gradient(15deg, var(--first-color) 0%, var(--first-color) 20%,var(--background-color) 20%,var(--background-color) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(15deg, var(--first-color) 0%, var(--first-color) 20%,var(--background-color) 20%,var(--background-color) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(15deg, var(--first-color) 0%, var(--first-color) 20%,var(--background-color) 20%,var(--background-color) 100%); /* IE10+ */
+  background: linear-gradient(75deg, var(--first-color) 0%, var(--first-color) 20%,var(--background-color) 20%,var(--background-color) 100%); /* W3C */
+}
+
+
+.bg {
+  background-color: var(--background-color);
+}
+
+::-webkit-scrollbar-corner { background: rgba(0,0,0,0.5); }
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--first-color) var(--background-color);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--background-color);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--first-color);
+    border-radius: 20px;
+    border: 3px solid var(--background-color);
+}
+
+
+
+.animated__button {
+  cursor: pointer;
+  margin: 20px 15% 0;
+  display: flex;
+  align-items: center;
+  font-size: var(--normal-font-size);
+  font-weight: var(--weight-800);
+  font-family: var(--second-font);
+  color: var(--body-white);
+  gap: 20px;
+  padding-left: 20px;
+  border: 1px solid var(--first-color);
+  border-radius: 999px;
+  background: linear-gradient(to left, var(--first-color) 50%, transparent 50%);
+  background-size: 300% 100%;
+  background-position: 0 0;
+  transition: all 1s ease;
+  width: fit-content;
+}
+
+.animated__button:hover {
+  background-position: 100% 0; 
+  color: var(--text-white);
+}
+
+.animated__button span {
+  height: 50px;
+  width: 50px;
+  background: var(--first-color);
+  color: var(--text-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}

@@ -1,0 +1,26 @@
+.portfolio {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.portfolio__title {
+  color: var(--body-color);
+  font-size: var(--h1-font-size);
+  font-weight: var(--weight-600);
+  font-family: var(--body-font);
+}
+
+.portfolio__title span {
+  color: var(--first-color);
+}
+
+.portfolio__content {
+  margin-top: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  max-width: 1140px;
+}

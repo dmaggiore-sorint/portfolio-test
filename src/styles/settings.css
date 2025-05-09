@@ -1,0 +1,88 @@
+.settings {
+  position: absolute;
+  bottom: 20px;
+}
+
+.settings__modal {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 50px;
+}
+
+.settings__flag {
+  cursor: pointer;
+}
+
+.settings__modal-content {
+  padding: 30px;
+  border-radius: 25px;
+  border: 1px solid var(--border-color);
+  background: var(--background-color);
+  position: relative;
+}
+
+.settings__close-modal {
+  position: absolute;
+  top: -25px;
+  right: -25px;
+  border: 1px solid var(--border-color);
+  background-color: var(--background-color);
+  font-size: var(--normal-font-size);
+  color: var(--body-color);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings__close-modal:hover {
+  background-color: var(--first-color);
+  color: var(--text-white);
+}
+
+
+
+.settings__theme-switcher,
+.settings__language-switcher {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.settings__theme-switcher {
+  margin-bottom: 40px;
+}
+
+.settings__color-switcher {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  padding: 30px 0 40px;
+}
+
+.settings__color-color {
+  font-size: var(--large-font-size);
+  cursor: pointer;
+}
+
+.settings__theme-button {
+  font-size: var(--h3-font-size);
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.settings__theme-button.active,
+.settings__theme-button:hover {
+  color: var(--first-color);
+}

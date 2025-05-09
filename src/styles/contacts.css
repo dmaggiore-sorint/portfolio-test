@@ -1,0 +1,95 @@
+.contacts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.contacts__title {
+  color: var(--first-color);
+}
+
+.contacts__content {
+  margin-top: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  max-width: 1140px;
+}
+
+.contacts__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.contacts__text-subtitle {
+  color: var(--body-color);
+}
+
+.contacts__text-abstract {
+}
+
+.contacts__text-mail-wrapper {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: var(--text-color);
+  width: fit-content;
+}
+
+.contacts__text-mail-icon {
+  font-size: 30px;
+  color: var(--first-color);
+}
+
+.contacts__text-mail-contacts {
+}
+
+.contacts__text-mail-email {
+}
+
+.contacts__form {
+  flex: 2;
+}
+
+.contacts__form-header {
+  display: flex;
+  gap: 30px;
+}
+
+.contacts__form-header input {
+  width: 100%;
+}
+
+.contacts__form input,
+.contacts__form textarea {
+  background-color: var(--input-background-color);
+  padding: 25px;
+  border-radius: 25px;
+  color: var(--body-color);
+}
+
+.contacts__form input::placeholder,
+.contacts__form textarea::placeholder {
+  font-weight: var(--weight-800);
+  font-family: var(--second-font);
+}
+
+.contacts__form textarea {
+  height: 150px;
+  resize: none;
+}
+
+.contacts__form .animated__button {
+  margin: 0;
+}
+
+.contacts__form form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
